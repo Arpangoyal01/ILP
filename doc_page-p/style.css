@@ -1,0 +1,41 @@
+.body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+/* sidebar */
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background: #f4f4f4;
+  padding: 20px;
+  position: fixed;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 10px 0;
+}
+
+/* content */
+.content {
+  margin-left: 300px;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 60px;
+}

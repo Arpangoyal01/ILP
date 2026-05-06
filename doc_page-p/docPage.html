@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DOC.Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+</html>
+
+<body>
+  <div class="container">
+    <!-- sidebar -->
+    <nav class="sidebar">
+      <h2>My Past Learnings</h2>
+      <ul>
+        <li><a href="#intro">getAttribute()</a></li>
+        <li><a href="#topic1"> Flexbox</a></li>
+        <li><a href="#topic2">list-style</a></li>
+        <li><a href="#topic3">querySelectorAll()</a></li>
+        <li><a href="#topic4">forEach()</a></li>
+        <li><a href="#topic5">addEventListener()</a></li>
+        <li><a href="#topic6">preventDefault()</a></li>
+      </ul>
+    </nav>
+
+    <!-- content -->
+    <main class="content">
+      <section id="intro">
+        <h1>getAttribute()</h1>
+        <p>
+          Used to retrieve the value of an attribute from an element.<br />
+          element.getAttribute("href");<br />
+          Get link targets (href)<br />
+          Access custom data attributes
+        </p>
+      </section>
+
+      <section id="topic1">
+        <h1>Flexbox</h1>
+        <p>
+          The display: flex property is used to create a flex container,
+          allowing child elements to be arranged in a flexible layout. Default
+          direction: row (horizontal), Enables easy alignment and spacing,
+          Supports responsive design.<br /><br />justify-content → horizontal
+          alignment<br />
+          align-items → vertical alignment<br />
+          flex-direction → row / column
+        </p>
+      </section>
+
+      <section id="topic2">
+        <h1>list-style</h1>
+        <p>
+          These properties are used to remove default styling from lists.
+          Commonly used in navigation menus.<br />
+          list-style: none; → removes bullets or numbers<br />
+          padding: 0; → removes default spacing<br />
+        </p>
+      </section>
+
+      <section id="topic3">
+        <h1>querySelectorAll()</h1>
+        <p>
+          This JavaScript method selects all elements that match a CSS
+          selector.<br />document.querySelectorAll("selector");<br />
+          Returns a NodeList (collection of elements)<br />
+          Supports CSS selectors (class, id, tag)<br />
+          Often used with loops like forEach()
+        </p>
+      </section>
+
+      <section id="topic4">
+        <h1>forEach()</h1>
+        <p>
+          The forEach() method is used to loop through each element in a
+          collection.<br />
+          Perform an action on every selected element<br />
+          Commonly used with querySelectorAll()
+        </p>
+      </section>
+
+      <section id="topic5">
+        <h1>addEventListener()</h1>
+        <p>
+          Used to attach an event (like click) to an element.<br />
+          element.addEventListener("click", function);<br />
+          Makes web pages interactive<br />
+          Responds to user actions
+        </p>
+      </section>
+
+      <section id="topic6">
+        <h1>preventDefault()</h1>
+        <p>
+          Stops the browser’s default behavior.<br />
+          Prevent link navigation<br />Prevent form submission
+        </p>
+      </section>
+    </main>
+  </div>
+</body>
+<script src="scrollBehavior.js"></script>
