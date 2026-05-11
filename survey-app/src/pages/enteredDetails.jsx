@@ -4,15 +4,15 @@ import { useNavigate } from "react-router-dom";
 function EnteredDetails({ basicDetails, answers, clearAllData }) {
   const navigate = useNavigate();
 
-  useEffect(() => {
-    if (!basicDetails.name || !basicDetails.email || !basicDetails.phone) {
-      navigate("/");
-    }
-  }, [basicDetails, navigate]);
+  //   useEffect(() => {
+  //     if (!basicDetails.name || !basicDetails.email || !basicDetails.phone) {
+  //       navigate("/");
+  //     }
+  //   }, [basicDetails, navigate]);
 
   const handleSubmit = () => {
     clearAllData();
-    navigate("/thank-you");
+    navigate("/thankYou");
   };
 
   return (

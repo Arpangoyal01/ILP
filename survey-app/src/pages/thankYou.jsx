@@ -1,4 +1,4 @@
-function ThankYou() {
+export default function ThankYou() {
   return (
     <div className="text-center py-5">
       <h2>Thank You!</h2>
@@ -6,5 +6,3 @@ function ThankYou() {
     </div>
   );
 }
-
-export default ThankYou;

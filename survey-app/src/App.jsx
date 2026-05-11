@@ -75,7 +75,7 @@ export default function App() {
             }
           />
 
-          <Route path="/thank-you" element={<ThankYou />} />
+          <Route path="/thankYou" element={<ThankYou />} />
 
           <Route path="/about" element={<About />} />
         </Routes>
