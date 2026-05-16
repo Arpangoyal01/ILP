@@ -5,7 +5,7 @@ import { Outlet } from "react-router-dom";
 const MainLayout = () => {
   return (
     <>
-      {/* Navbar visible everywhere */}
+      {/* Navbar fixed */}
       <Navbar />
 
       {/* Page content changes here */}
@@ -13,7 +13,7 @@ const MainLayout = () => {
         <Outlet />
       </main>
 
-      {/* Footer visible everywhere */}
+      {/* Footer fixed */}
       <Footer />
     </>
   );

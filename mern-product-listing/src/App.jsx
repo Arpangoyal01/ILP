@@ -8,7 +8,7 @@ import ProductDetailsPage from "./pages/ProductDetailsPage";
 function App() {
   return (
     <Routes>
-      {/* Parent Route */}
+      {/* Parent Route it become outlet */}
       <Route path="/" element={<MainLayout />}>
         <Route index element={<HomePage />} />
 
